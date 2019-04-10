@@ -72,6 +72,9 @@ for i in range(1000, len(backgrounds), 10):
 cv2.imshow("out", out)
 cv2.waitKey(0)
 
+# the script here only include the algorithm without output the result
+# please also write codes for outputting the detection result of this script
+# start from here
 
 
 
