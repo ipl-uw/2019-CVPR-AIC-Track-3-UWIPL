@@ -11,6 +11,7 @@ Under **candidate selection** are the scripts for getting anomaly candidate vide
 Scripts under **time decision** are used to get the exact startting time of the anomaly cases.  
 **util** includes all necessary scripts for processing the output from detection to get tracking result using [TNT][1].  
 All the models used should be placed under **model**, and you can find the download link for all three models in a txt file under that folder.  
+You should run the scripts under **candidate selection** first, and then run TNT to get tracking result. After that please run codes under **time decision** to get the exact starting time of the anomaly.   
 
 Xinyu (Xavier) Yuan  
 4/9/2019
