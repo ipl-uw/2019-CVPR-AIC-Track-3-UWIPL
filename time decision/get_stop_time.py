@@ -24,7 +24,7 @@ def bb_intersection_over_union(boxA, boxB):
     # return the intersection over union value
     return iou
 
-anomalyIDPath = "D:\\AIC2019\\anomaly_candidate_ID.txt"
+anomalyIDPath = "D:\\AIC2019\\anomaly_candidate_curvefit.txt"
 SCTPath = "D:\\AIC2019\\yolo_txt_result_processed\\"
 video = ' '
 outPath = "D:\\AIC2019\\stop_time.txt"
@@ -49,7 +49,7 @@ for k in range(len(content)):
     lines = [x.strip('\n') for x in lines]
     for i in range(len(lines)):
         words2 = lines[i].split(',')
-        if(words2[1] == words[2]):
+        if(words2[1] == words[2] and int(words2[0])>int(words[3])):
             start = min(start, int(words2[0]))
             temp = [int(words2[2]), int(words2[3]), int(words2[2])+int(words2[4]), int(words2[3])+int(words2[5])]
             trackList.append(temp)
