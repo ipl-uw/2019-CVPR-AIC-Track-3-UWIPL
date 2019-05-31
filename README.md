@@ -3,6 +3,7 @@ This repository is used to do traffic anomaly detection, including lane violatio
 
 ## Updates
 *For Collaborators: Please write your summary of your updates in the following format:*  
+**5/31/2019&emsp;Update four pre-trained models, update time decision.**  
 **4/9/2019&emsp;Update scripts for candidate selection and models**
 
 ## Introduction
