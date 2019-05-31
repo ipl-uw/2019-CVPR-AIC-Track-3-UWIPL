@@ -16,4 +16,4 @@ You should run the scripts under **candidate selection** first, and then run TNT
 Xinyu (Xavier) Yuan  
 4/9/2019
 
-[1]: https://github.com/GaoangW/TNT
+[1]: https://github.com/GaoangW/TNT/tree/master/AIC19
