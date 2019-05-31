@@ -23,6 +23,8 @@ def bb_intersection_over_union(boxA, boxB):
  
     # return the intersection over union value
     return iou
+
+# Path to Single Camera Tracking Results
 SCTPath = "D:\\AIC2019\\yolo_txt_result\\"
 outFolder ="D:\\AIC2019\\yolo_txt_result_processed\\"
 IOUThesh = 0.6
