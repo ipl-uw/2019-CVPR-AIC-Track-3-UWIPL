@@ -1,5 +1,5 @@
 # 2019 CVPR AI City Challenge Track 3
-This repository is used to do traffic anomaly detection, including lane violation, traffic accident, emergency stop on highway, etc.
+This repository is used to do traffic anomaly detection, including lane violation, traffic accident, emergency stop on highway, etc. Our method ranks 2nd in 2019 CVPR AI City Challenge Track 3.
 
 ## Updates
 *For Collaborators: Please write your summary of your updates in the following format:*  
